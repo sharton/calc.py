@@ -1,0 +1,21 @@
+user = input("+,-,*,/  ")
+if user == "*":
+	def um(nom1,nom2):
+		umn = (int(nom1) * int(nom2))
+		print(umn)
+	um(input("Vvedite pervoe chislo "),input("Vvedite vtoroe chislo "))
+if user == "+":
+	def summ(nom1,nom2):
+		summaa = (int(nom1) + int(nom2))
+		print(summaa)
+	summ(input("Vvedite pervoe chislo "),input("Vvedite vtoroe chislo "))
+if user == "-":
+	def vychit(nom1,nom2):
+		vychitaemoe = (int(nom1) - int(nom2))
+		print(vychitaemoe)
+	vychit(input("Vvedite pervoe chislo "),input("Vvedite vtoroe chislo "))
+if user == "/":
+	def deli(nom1,nom2):
+		delit = (int(nom1) / int(nom2))
+		print(delit)
+	deli(input("Vvedite pervoe chislo "),input("Vvedite vtoroe chislo "))
